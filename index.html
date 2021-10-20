@@ -18,7 +18,7 @@
   <header>
     <nav class="navbar navbar-dark navbar-expand bg-primary text-light no-select justify-content-between">
       <a class="navbar-brand ms-3" href="#">
-        <span class="ms-2 f-24">Greg's List</span>
+        <span class="ms-2 f-24 title">Greg's List</span>
         <div id="top-nav" class="d-none">
 
           <p class="selectable p-2" onclick="app.carsController.showCars()">Cars</p>
@@ -27,7 +27,7 @@
         </div>
       </a>
       <!-- Button trigger modal -->
-      <button title='create car' type="button" class="btn btn-success me-3 visually-hidden" data-bs-toggle="modal"
+      <button title='New Post' type="button" class="btn btn-success me-3 visually-hidden" data-bs-toggle="modal"
         data-bs-target="#form-modal" id="form-button">
         <i class="mdi mdi-plus"></i>
       </button>
@@ -40,10 +40,10 @@
         <p class="selectable p-2" onclick="app.housesController.showHouses()">Houses</p>
         <p class="selectable p-2">Jobs</p>
       </div>
-      <div class="col-11">
+      <div class="col-11 justify-content-middle">
         <div class="row mt-2" id='listings'>
-          <div class="text-center">
-            <h2>Welcome To Greg's List!</h2>
+          <div class="text-center p-5 mt-5">
+            <h2>Welcome to Greg's List!</h2>
           </div>
           <!-- <div class="col-md-3 mt-3">
             <div class="bg-light elevation-1 rounded">
