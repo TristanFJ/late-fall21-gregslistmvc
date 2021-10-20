@@ -6,19 +6,19 @@ import {
   House
 } from "../Models/House.js";
 
-class HouseService {
+class HousesService {
 
   deleteHouse(id) {
     // Filters the array of house removing the one with the id that was passed
-    ProxyState.house = ProxyState.house.filter(car => car.id != id)
+    ProxyState.houses = ProxyState.houses.filter(car => car.id != id)
   }
 
 
   createHouse(houseData) {
     const house = new House(houseData)
-    ProxyState.house = [...ProxyState.house, house]
+    ProxyState.house = [...ProxyState.houses, house]
   }
 
 }
 
-export const houseService = new HouseService()
+export const housesService = new HousesService()

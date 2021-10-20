@@ -2,6 +2,9 @@ import {
   Car
 } from "./Models/Car.js"
 import {
+  House
+} from "./Models/House.js"
+import {
   EventEmitter
 } from "./Utils/EventEmitter.js"
 import {
@@ -49,7 +52,16 @@ class AppState extends EventEmitter {
     })
   ]
 
-  houses = []
+  houses = [
+    new House({
+      year: 2015,
+      price: 300000,
+      description: "the worst house, in the best location",
+      imgUrl: 'https://cdn.cnn.com/cnnnext/dam/assets/210206204954-01-first-3d-printed-house-united-states-for-sale-trnd-large-169.jpg',
+      sqFt: 1500,
+    })
+
+  ]
 }
 
 export const ProxyState = new Proxy(new AppState(), {
