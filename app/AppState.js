@@ -5,6 +5,9 @@ import {
   House
 } from "./Models/House.js"
 import {
+  Job
+} from "./Models/Job.js"
+import {
   EventEmitter
 } from "./Utils/EventEmitter.js"
 import {
@@ -75,6 +78,47 @@ class AppState extends EventEmitter {
       imgUrl: 'https://i.insider.com/5de972d479d7573e943a3c23?width=1136&format=jpeg',
       sqFt: 700,
     })
+
+  ]
+
+  jobs = [
+    new Job({
+      title: 'Software Engineer II',
+      year: '2021',
+      price: '90000',
+      description: `look for typos. Must know: 
+      Progressive Web Apps (PWA)
+      Artificial Intelligence and Bots.
+      Accelerated Mobile Pages (AMP)
+      Single Page Application (SPA)
+      Voice Search Optimization.
+      Motion UI.
+      Automation Testing.
+      JavaScript Frameworks. Blockchain Technology.
+      Progressive Web Apps (PWA)
+      Internet of Things (IoT)
+      Accelerated Mobile Pages (AMP)
+      Voice Search Optimization.
+      API-first Development.
+      AI-Powered Chatbots.
+      Push Notifications.
+      `
+    }),
+
+    new Job({
+      title: 'US Marine',
+      year: '2021',
+      price: '50000',
+      description: 'move heavy stuff, get yelled at'
+    }),
+
+    new Job({
+      title: 'Hair stylist',
+      year: '2019',
+      price: '30000',
+      description: 'operate scissors, underpaid therapy'
+    })
+
 
   ]
 }

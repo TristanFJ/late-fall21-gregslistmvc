@@ -35,9 +35,7 @@ export class HousesController {
     }
 
     housesService.createHouse(houseData)
-
     formElem.reset()
-
     bootstrap.Modal.getInstance(document.getElementById('form-modal')).toggle()
   }
 
