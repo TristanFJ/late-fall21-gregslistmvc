@@ -1,4 +1,6 @@
-import { generateId } from "../Utils/generateId.js"
+import {
+  generateId
+} from "../Utils/generateId.js"
 
 export class Car {
   constructor(data) {
@@ -17,8 +19,8 @@ export class Car {
   get Template() {
     return `
     <div class="col-md-3 mt-3">
-      <div class="bg-light elevation-1 rounded">
-        <img width="100%" class="car-img rounded-top" src="${this.imgUrl}" alt="car image">
+      <div class="bg-light elevation-1 rounded h-100">
+        <img width="100%" height="300px" class="car-img rounded-top" src="${this.imgUrl}" alt="car image">
         <div class="p-3">
           <p><b>${this.make} - ${this.model} - ${this.year}</b></p>
           <p>${this.description}</p>
