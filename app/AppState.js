@@ -47,7 +47,7 @@ class AppState extends EventEmitter {
       year: 2019,
       price: 2000,
       color: '#000',
-      description: 'likes scratches',
+      description: 'likes scritches',
       imgUrl: 'https://thiscatdoesnotexist.com'
     })
   ]

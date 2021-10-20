@@ -16,7 +16,7 @@ export class House {
 
   get Template() {
     return `
-  <div class="col-md-3 m-3">
+  <div class="col-md-3 mt-3">
     <div class="bg-light elevation-1 rounded h-100">
       <img width="100%" height="300px" class="car-img rounded-top" src="${this.imgUrl}" alt="car image">
       <div class="p-3">

@@ -3,3 +3,15 @@
 img {
   object-fit: cover;
 }
+
+@media screen and (max-width: 880px) {
+
+  #side-nav {
+    display: none;
+  }
+
+  #top-nav {
+    display: flex !important;
+  }
+
+}
