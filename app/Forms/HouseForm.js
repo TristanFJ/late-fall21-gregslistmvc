@@ -2,20 +2,8 @@ export function getHouseForm() {
 
   // this won't work but I wanted some kind of form
   return /*html*/ `
-  <form onsubmit="app.carsController.createCar()">
-    <div class="mb-3 d-flex justify-content-between">
-    <div>
-      <label for="make" class="form-label">Make</label>
-      <input type="text" class="form-control" name="make" id="make" aria-describedby="make"
-        placeholder="Make..." required>
-    </div>
-
-    <div>
-      <label for="model" class="form-label">Model</label>
-      <input type="text" class="form-control" name="model" id="model" aria-describedby="model"
-        placeholder="Model..." required>
-    </div>
-  </div>
+  <form onsubmit="app.housesController.createHouse()">
+    <div class="mb-3 d-flex justify-content-between"></div>
 
   <div class="mb-3 d-flex justify-content-between">
     <div>
@@ -23,11 +11,13 @@ export function getHouseForm() {
       <input type="number" class="form-control" name="year" id="year" aria-describedby="year"
         placeholder="Year..." min="1950" max="2022" required>
     </div>
-
+    
     <div>
-      <label for="color" class="form-label">Color</label>
-      <input type="color" class="form-control" name="color" id="color" aria-describedby="color" required>
-    </div>
+    <label for="sqFt" class="form-label">Square Feet</label>
+    <input type="number" class="form-control" name="sqFt" id="sqFt" aria-describedby="sqFt"
+      placeholder="Square Feet" min='1' required>
+  </div>
+
 
     <div>
       <label for="price" class="form-label">Price</label>

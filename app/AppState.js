@@ -59,6 +59,21 @@ class AppState extends EventEmitter {
       description: "the worst house, in the best location",
       imgUrl: 'https://cdn.cnn.com/cnnnext/dam/assets/210206204954-01-first-3d-printed-house-united-states-for-sale-trnd-large-169.jpg',
       sqFt: 1500,
+    }),
+    new House({
+      year: 2021,
+      price: 20000,
+      description: "sleek, modern, low impact",
+      imgUrl: 'https://travel.home.sndimg.com/content/dam/images/travel/fullrights/2019/4/19/0/CI_Airbnb_North-Carolina-Container.jpg.rend.hgtvcom.966.644.suffix/1555762549263.jpeg',
+      sqFt: 500,
+    }),
+
+    new House({
+      year: 667,
+      price: 125999,
+      description: "a hole in the ground",
+      imgUrl: 'https://i.insider.com/5de972d479d7573e943a3c23?width=1136&format=jpeg',
+      sqFt: 700,
     })
 
   ]

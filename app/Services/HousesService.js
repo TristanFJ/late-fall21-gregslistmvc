@@ -16,7 +16,7 @@ class HousesService {
 
   createHouse(houseData) {
     const house = new House(houseData)
-    ProxyState.house = [...ProxyState.houses, house]
+    ProxyState.houses = [...ProxyState.houses, house]
   }
 
 }
