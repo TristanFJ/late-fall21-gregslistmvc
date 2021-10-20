@@ -1,13 +1,21 @@
 export function getJobForm() {
   return `
-  <form onsubmit="app.housesController.createHouse()">
+  <form onsubmit="app.jobsController.createJob()">
     <div class="mb-3 d-flex justify-content-between"></div>
+
+    <div class="mb-3 d-flex justify-content-between">
+    <div>
+      <label for="title" class="form-label">Title</label>
+      <input type="text" class="form-control" name="title" id="title" aria-describedby="title"
+        placeholder="Title..." required>
+
+
 
   <div class="mb-3 d-flex justify-content-between">
     <div>
       <label for="year" class="form-label">Year</label>
       <input type="number" class="form-control" name="year" id="year" aria-describedby="year"
-        placeholder="Year..." min="1950" max="2022" required>
+        placeholder="Year..." min="2021" required>
     </div>
     
 

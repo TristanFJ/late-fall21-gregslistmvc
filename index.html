@@ -21,13 +21,13 @@
         <span class="ms-2 f-24 title">Greg's List</span>
         <div id="top-nav" class="d-none">
 
-          <p class="selectable p-2" onclick="app.carsController.showCars()">Cars</p>
-          <p class="selectable p-2" onclick="app.housesController.showHouses()">Houses</p>
-          <p class="selectable p-2">Jobs</p>
+          <p class="selectable p-2 title" onclick="app.carsController.showCars()">Cars</p>
+          <p class="selectable p-2 title" onclick="app.housesController.showHouses()">Houses</p>
+          <p class="selectable p-2 title" onclick="app.jobsController.showJobs()">Jobs</p>
         </div>
       </a>
       <!-- Button trigger modal -->
-      <button title='New Post' type="button" class="btn btn-success me-3 visually-hidden" data-bs-toggle="modal"
+      <button title='Create Listing' type="button" class="btn btn-dark me-3 visually-hidden" data-bs-toggle="modal"
         data-bs-target="#form-modal" id="form-button">
         <i class="mdi mdi-plus"></i>
       </button>

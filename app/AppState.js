@@ -87,17 +87,17 @@ class AppState extends EventEmitter {
       year: '2021',
       price: '90000',
       description: `look for typos. Must know: 
-      Progressive Web Apps (PWA)
+      Progressive Web Apps (PWA).
       Artificial Intelligence and Bots.
-      Accelerated Mobile Pages (AMP)
-      Single Page Application (SPA)
+      Accelerated Mobile Pages (AMP).
+      Single Page Application (SPA).
       Voice Search Optimization.
       Motion UI.
       Automation Testing.
       JavaScript Frameworks. Blockchain Technology.
-      Progressive Web Apps (PWA)
-      Internet of Things (IoT)
-      Accelerated Mobile Pages (AMP)
+      Progressive Web Apps (PWA).
+      Internet of Things (IoT).
+      Accelerated Mobile Pages (AMP).
       Voice Search Optimization.
       API-first Development.
       AI-Powered Chatbots.
